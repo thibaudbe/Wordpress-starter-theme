@@ -1,0 +1,25 @@
+{
+  "name": "jquery-hashchange",
+  "homepage": "https://github.com/thibaudbe/jquery-hashchange",
+  "authors": [
+    "Thibaud B <thibaud.tibo@gmail.com>"
+  ],
+  "main": "jquery.ba-hashchange.js",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "_release": "5e2b1a161f",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "5e2b1a161f528460e3ca74d48a734778fd3efe40"
+  },
+  "_source": "https://github.com/thibaudbe/jquery-hashchange.git",
+  "_target": "*",
+  "_originalSource": "https://github.com/thibaudbe/jquery-hashchange.git"
+}

@@ -1,0 +1,12 @@
+// http://culttt.com/2013/12/09/adding-bourbon-and-bourbon-neat-with-bower/
+// @import "../bower/bourbon/dist/bourbon";
+// @import "../bower/neat/app/assets/stylesheets/neat";
+
+
+$color: pink;
+$text: green;
+
+body {
+	background: $color;
+	color: $text;
+}

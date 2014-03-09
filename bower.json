@@ -1,0 +1,21 @@
+{
+  "name": "timber-starter-theme",
+  "version": "0.0.1",
+  "authors": [
+    "thibaudbe <thibaud.tibo@gmail.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "js/libs",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.0",
+    "hashchange": "https://github.com/thibaudbe/jquery-hashchange.git",
+    "html5shiv": "https://github.com/thibaudbe/html5shiv.git#~3.7.0"
+  }
+}

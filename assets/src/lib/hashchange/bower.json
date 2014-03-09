@@ -1,0 +1,17 @@
+{
+  "name": "jquery-hashchange",
+  "version": "0.0.0",
+  "homepage": "https://github.com/thibaudbe/jquery-hashchange",
+  "authors": [
+    "Thibaud B <thibaud.tibo@gmail.com>"
+  ],
+  "main": "jquery.ba-hashchange.js",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

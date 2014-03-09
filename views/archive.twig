@@ -1,0 +1,28 @@
+{% extends "base.twig" %}
+{% block content %}
+
+    <h2>Archive :) Page</h2>
+
+    <div class="tool-pagination">
+        {% if pagination.prev.path|length %}
+            <a href="{{pagination.prev.path}}" class="prev">Prev</a>
+        {% else %}
+            <span class="prev placeholder">&nbsp;</span>
+        {% endif %}
+
+        <ul class="pages">
+            {% for i in 1..pagination.pages %}
+                {% set url = pagination.base ~ 'page/'~i %}
+                <li><a href="{{url}}" {{pagination.paged == i ? 'class="active"'}}>{{i}}</a></li>
+            {% endfor %}
+
+
+        </ul>
+        {% if pagination.next.path|length %}
+            <a href="{{pagination.next.path}}" class="next">Next</a>
+        {% else %}
+            <span class="next placeholder">&nbsp;</span>
+        {% endif %}
+    </div>
+
+{% endblock %}
