@@ -1,12 +1,14 @@
-### Bower ###
-bower_components
+### Apple ###
+.DS_STORE
 
 ### Node ###
 node_modules
 
+### Bower ###
+bower_components
+
 ### Assets ###
-assets/styles/build
-assets/scripts/build
+assets/build
 
 ### Wordpress ###
 .htaccess
@@ -26,10 +28,3 @@ sitemap.xml.gz
 ### SublimeText ###
 # workspace files are user-specific
 *.sublime-workspace
-
-# project files should be checked into the repository, unless a significant
-# proportion of contributors will probably not be using SublimeText
-# *.sublime-project
-
-### Apple ###
-.DS_STORE
