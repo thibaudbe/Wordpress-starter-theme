@@ -53,3 +53,6 @@ It will listen a local livereload on **35729** port, and also compile, minify, c
 ### Credits
 
 Thanks to [Seomix](http://www.seomix.fr/navigation-ajax/) for the inspiration.
+
+
+[![Analytics](https://ga-beacon.appspot.com/UA-59640055-1/Wordpress-starter-theme/readme)](https://github.com/igrigorik/ga-beacon)
